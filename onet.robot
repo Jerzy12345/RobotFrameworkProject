@@ -1,3 +1,4 @@
+# Autor:Jerzy Szczepaniak 
 *** Settings ***
 Library   SeleniumLibrary
 Library   BuiltIn
@@ -31,7 +32,7 @@ Test poprwnego otwarcia strony onet.pl
     Akceptacja Rodo
     Test strony
 
-Test zalogowania sie do poczyt onet.pl z uzyciem poprawnych danych
+Test zalogowania sie do poczty onet.pl z uzyciem poprawnych danych
 	Akceptacja Rodo
 	Klikniecie ikony poczty
 	Wprowadzenie uzytkownika
